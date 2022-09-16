@@ -1,0 +1,64 @@
+{
+    "name": "wazoi",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@ckeditor/ckeditor5-react": "^5.0.2",
+        "@emotion/react": "^11.9.3",
+        "@emotion/styled": "^11.9.3",
+        "@mui/icons-material": "^5.8.2",
+        "@mui/material": "^5.9.2",
+        "@mui/x-data-grid": "^5.16.0",
+        "@reduxjs/toolkit": "^1.8.2",
+        "array-move": "^4.0.0",
+        "axios": "^0.27.2",
+        "chart.js": "^3.9.1",
+        "ckeditor5-custom-build": "file:ckeditor5",
+        "formik": "^2.2.9",
+        "formik-mui": "^5.0.0-alpha.0",
+        "moment": "^2.29.4",
+        "react": "^18.1.0",
+        "react-chartjs-2": "^4.3.1",
+        "react-colorful": "^5.5.1",
+        "react-confirm-alert": "^3.0.6",
+        "react-datetime": "^3.1.1",
+        "react-dom": "^18.2.0",
+        "react-redux": "^8.0.2",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "5.0.1",
+        "react-smooth-dnd": "^0.11.1",
+        "react-transition-group": "^4.4.2",
+        "redux-persist": "^6.0.0",
+        "redux-thunk": "^2.4.1",
+        "yup": "^0.32.11",
+        "yup-password": "^0.2.2"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "engines": {
+        "node": "v16.13.2",
+        "npm": "8.1.2"
+    }
+}
