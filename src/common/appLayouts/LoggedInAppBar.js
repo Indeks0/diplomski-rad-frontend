@@ -62,6 +62,9 @@ const LoggedInAppBar = () => {
 
     const handleCloseUserMenu = () => {
         setAnchorElUser(null);
+    };
+    const handleOpenPostavke = () => {
+        setAnchorElUser(null);
         navigate("predmeti/reset-password");
     };
 
@@ -128,7 +131,7 @@ const LoggedInAppBar = () => {
                         >
                             <MenuItem
                                 key={"postavke"}
-                                onClick={handleCloseUserMenu}
+                                onClick={handleOpenPostavke}
                             >
                                 <Typography textAlign="center">
                                     Postavke
